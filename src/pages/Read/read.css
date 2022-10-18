@@ -1,0 +1,32 @@
+.sectionButton{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+.cardContainer {
+    max-height: 420px;
+    width: 250px;
+  }
+  
+  .cardImageWrapper
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 15px;
+      height: 290px;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+.sectionCard{
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.linkSection{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
